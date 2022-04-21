@@ -15,3 +15,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+friends_list = ["beer", "cookies", "apples","bacon"]
+
+our_list = my_list + friends_list
+puts our_list.sort.inspect
+
+our_unique_list = our_list.uniq
+puts our_unique_list.inspect
+
+puts "buy #{our_unique_list[0]}"
+

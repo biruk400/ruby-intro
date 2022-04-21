@@ -7,5 +7,25 @@
 #   puts "tacos!"
 # end
 
+index = 0
+loop do 
+    if index == 4
+        break
+    else
+        puts "tacos!"
+        index = index+1
+    end
+end
+
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+index = 0 
+loop do
+    if index == tacos.length
+        break
+    else
+        puts tacos[index]
+        index = index + 1
+    end
+end

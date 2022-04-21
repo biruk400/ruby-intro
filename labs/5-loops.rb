@@ -17,6 +17,19 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # 3 of Clubs
 # ...
 
+deck = array.new()
+
+rank_index
+suit_index
+
+loop do
+    if rank_index = 12
+        break
+
+card = {
+    rank = 
+}
+
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
 # You will want to look at the documentation for Arrays: https://ruby-doc.org/core-2.7.0/Array.html
